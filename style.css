@@ -1,0 +1,135 @@
+body {
+  font-family: "Sono", sans-serif;
+  background: rgb(250, 244, 225);
+  color: rgb(199, 39, 103);
+}
+h1 {
+  font-size: 30px;
+}
+ul {
+  font-size: 13px;
+  padding-top: 40px;
+  text-align: end;
+  line-height: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.website-title {
+  font-size: 50px;
+  font-family: "Arvo", serif;
+  padding-top: 15px;
+}
+
+.units-placement {
+  font-size: 25px;
+  font-family: "Arvo", serif;
+  padding-top: 20px;
+  text-align: end;
+}
+
+a {
+  outline: none;
+  text-decoration: underline;
+}
+
+a:focus {
+  color: rgb(199, 39, 103);
+}
+
+.current-location {
+  font-size: 15px;
+}
+
+.search-form {
+  font-family: "Arvo", serif;
+  padding-top: 15px;
+}
+
+.weather-info {
+  border: 1px solid rgba(236, 148, 84, 0.1);
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 15px;
+  background: rgba(236, 148, 84, 0.1);
+}
+
+.current-date {
+  font-size: 15px;
+  text-align: end;
+}
+
+.current-time {
+  font-size: 15px;
+  text-align: end;
+}
+
+.temperature {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.image-description {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cloudsunrain {
+  font-size: 70px;
+  color: rgb(250, 188, 65);
+}
+
+.current-description {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.high-low {
+  text-align: center;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  background: rgba(249, 234, 211);
+}
+
+.card-header {
+  font-size: 18px;
+}
+
+.card-footer {
+  color: rgb(199, 39, 103);
+}
+
+.sun,
+.wind,
+.fog,
+.rain,
+.cloudsun {
+  font-size: 40px;
+  color: rgba(250, 188, 65, 1);
+  padding: 20px;
+}
+
+.description-day1,
+.description-day2,
+.description-day3,
+.description-day4,
+.description-day5 {
+  font-size: 15px;
+  padding: 5px 0 5px;
+}
+
+.high-low-day1,
+.high-low-day2,
+.high-low-day3,
+.high-low-day4,
+.high-low-day5 {
+  font-size: 15px;
+  padding: 5px 0 5px;
+  text-align: bottom;
+}
